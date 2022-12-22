@@ -37,7 +37,7 @@ int main(void) {
 ### 2. コンパイル時解析
 コマンド :
 ```
-clang -g -fno-legacy-pass-manager -fpass-plugin=<pass to ShowLoop.so> <pass to main.c>
+clang -g -fno-legacy-pass-manager -fpass-plugin=<path to ShowLoop.so> <path to main.c>
 ```
 
 結果 :
